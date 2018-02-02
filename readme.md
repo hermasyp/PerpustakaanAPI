@@ -6,8 +6,15 @@ This api is using for build Android app using Retrofit,Kotlin,and RX Java
 
 **Lumen Version is v5.5.2**
 
-## How to Start the API
+## How to Start the Project
 
+First you should change the database Configuration at env on root project with your mysql database configuration.
+
+then you can Migrate the database with this code
+
+```sh
+php artisan migrate
+```
 get into project folder and type this into your Terminal
 
 ```sh
